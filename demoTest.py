@@ -6,7 +6,7 @@ def solution(A):
     A = set(filter(lambda x: x > 0, A))
 
     # Find the smallest missing positive integer
-    i = 2
+    i = 1
     while i in A:
         i += 1
 
