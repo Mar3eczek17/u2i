@@ -37,13 +37,12 @@ b = 1
 n = 13
 while a <= n:
     print(a)
-    c = a +b
+    c = a + b
     a = b
     b = c
 print('#################################')
 # 1.3. Looping over collections of values
 days = {'mon': 'Monday', 'tue': 'Tuesday', 'wed': 'Wednesday', 'thu': 'Thursday', 'fri': 'Friday',
-'sat': 'Saturday', 'sun': 'Sunday'}
-
+        'sat': 'Saturday', 'sun': 'Sunday'}
 for day in days:
     print(day, 'stands for', days[day])
